@@ -9,8 +9,10 @@ Tests your moude emulator skills and solution!
     - [x] Choose cross platform GUI framework
     - [x] Install cross platform GUI framework
     - [ ] Setup deployment project structure
-    - [ ] Basic fullscreen UI - single monitor
-    - [ ] Random button position
+    - [x] ~Basic fullscreen UI - single monitor~
+    - [x] ~Bump out out bounds button~
+    - [x] ~Put game logic into game_logic.py~
+    - [x] ~Random button position~
     - [ ] basic label click count
     - [ ] compile for windows
     - [ ] compile for linux

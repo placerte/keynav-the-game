@@ -13,7 +13,7 @@ Tests your moude emulator skills and solution!
     - [x] ~Bump out out bounds button~
     - [x] ~Put game logic into game_logic.py~
     - [x] ~Random button position~
-    - [ ] basic label click count
+    - [x] ~basic label click count~
     - [ ] compile for windows
     - [ ] compile for linux
     - [ ] distribute on github

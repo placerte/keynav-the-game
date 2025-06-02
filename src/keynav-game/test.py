@@ -15,7 +15,12 @@ class MyApp(App):
     def build(self):
         self.layout= FloatLayout()
         self.build_button()
+        Window.bind(on_resize=lambda *_: self.place_button())
         return self.layout
+    
+    def on_start(self):
+        self.place_button()
+
 
     def build_button(self):
         self.button = Button(text="Click")

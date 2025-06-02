@@ -4,7 +4,6 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from my_kivies import Button
 from kivy.uix.floatlayout import FloatLayout
-import numpy as np
 from game_logic import Game
 
 class MyApp(App):
@@ -13,10 +12,12 @@ class MyApp(App):
     layout: FloatLayout
     button_rel_pos: tuple[float, float] = (0.5,0.5)
     game: Game = Game()
+    score_label: Label
 
     def build(self):
         self.layout= FloatLayout()
         self.build_button()
+        self.build_score_label()
         #TODO verify if it is required
         Window.bind(on_resize=lambda *_: self.place_button())
         Window.fullscreen = 'auto'
@@ -25,6 +26,11 @@ class MyApp(App):
     #TODO verify it is required
     def on_start(self):
         self.place_button()
+
+    def build_score_label(self):
+        self.score_label = Label()
+        self.layout.add_widget(self.score_label)
+
 
 
     def build_button(self):
@@ -36,6 +42,8 @@ class MyApp(App):
         self.layout.add_widget(self.button)
     
     def move_button(self, instance):
+        self.game.register_click()
+        self._update_score_label()
         self.game.choose_next_position()
         self.place_button()
 
@@ -71,13 +79,8 @@ class MyApp(App):
 
         self.button.pos = (new_x, new_y)
 
-
-
-
-
-    def show_hello_world(self, instance):
-        self.label: Label = Label(text="Hello World!")
-        self.layout.add_widget(self.label)
+    def _update_score_label(self):
+        self.score_label.text = self.game.score_string
 
 MyApp().run()
 

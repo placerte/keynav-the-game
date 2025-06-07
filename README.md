@@ -17,7 +17,7 @@ Tests your moude emulator skills and solution!
     - [ ] compile for windows
     - [ ] compile for linux
     - [ ] distribute on github
-    - [ ] write propper documentation
+   - [ ] write propper documentation
 - [ ] PHASE II
     - [ ] Custom game settings
         - [ ] button size

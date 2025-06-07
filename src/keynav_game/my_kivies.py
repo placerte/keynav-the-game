@@ -1,6 +1,7 @@
 from kivy.uix.button import Button as KiviBytton
 from typing import Callable, Any
 
+
 class Button(KiviBytton):
 
     def bind(

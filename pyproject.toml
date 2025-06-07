@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keynav-the-game"
+version = "0.1.0"
+description = "A keyboard-driven game using Kivy to practice mouse emulation"
+authors = [
+    { name="Pierre Lacerte", email="your.email@example.com" }
+]
+dependencies = [
+    "kivy>=2.2.0",
+	numpy
+]
+
+[project.scripts]
+keynav-game = "keynav_game.main:main"

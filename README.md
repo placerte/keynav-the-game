@@ -8,7 +8,7 @@ Tests your moude emulator skills and solution!
 - [ ] PHASE I
     - [x] Choose cross platform GUI framework
     - [x] Install cross platform GUI framework
-    - [ ] Setup deployment project structure
+    - [-] Setup deployment project structure
     - [x] ~Basic fullscreen UI - single monitor~
     - [x] ~Bump out out bounds button~
     - [x] ~Put game logic into game_logic.py~

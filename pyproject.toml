@@ -11,7 +11,7 @@ authors = [
 ]
 dependencies = [
     "kivy>=2.2.0",
-	numpy
+	"numpy",
 ]
 
 [project.scripts]

@@ -16,7 +16,7 @@ Tests your mouse emulator skills and solution!
     - [x] ~basic label click count~
     - [ ] compile for windows
     - [x] ~compile for linux~
-    - [ ] distribute on github
+    - [-] **distribute on github**
    - [ ] write propper documentation
 - [ ] PHASE II
     - [ ] Custom game settings

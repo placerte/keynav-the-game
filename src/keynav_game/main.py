@@ -1,4 +1,4 @@
-from ui import KeynavGameApp
+from keynav_game.ui import KeynavGameApp
 
 
 def main():

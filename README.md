@@ -1,21 +1,21 @@
 # KEYNAV THE GAME
 ## Description
 
-Tests your moude emulator skills and solution!
+Tests your mouse emulator skills and solution!
 
 ## Development Roadmap
 
-- [ ] PHASE I
+- [-] **PHASE I**
     - [x] Choose cross platform GUI framework
     - [x] Install cross platform GUI framework
-    - [-] Setup deployment project structure
+    - [x] ~Setup deployment project structure~
     - [x] ~Basic fullscreen UI - single monitor~
     - [x] ~Bump out out bounds button~
     - [x] ~Put game logic into game_logic.py~
     - [x] ~Random button position~
     - [x] ~basic label click count~
     - [ ] compile for windows
-    - [ ] compile for linux
+    - [-] **compile for linux**
     - [ ] distribute on github
    - [ ] write propper documentation
 - [ ] PHASE II

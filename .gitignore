@@ -2,3 +2,5 @@
 archive/
 __pycache__/
 src/keynav-game/__pycache__/
+build/
+*.egg-info/

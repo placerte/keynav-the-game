@@ -1,9 +1,9 @@
 from kivy.app import App
 from kivy.core.window import Window
 from kivy.uix.label import Label
-from my_kivies import Button
+from keynav_game.my_kivies import Button
 from kivy.uix.floatlayout import FloatLayout
-from game_logic import Game
+from keynav_game.game_logic import Game
 
 
 class KeynavGameApp(App):

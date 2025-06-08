@@ -3,6 +3,17 @@
 
 Tests your mouse emulator skills and solution!
 
+## Installation
+
+### Linux
+
+Simply paste this command in your terminal:
+
+```bash
+curl -L https://github.com/placerte/keynav-the-game/releases/download/v0.1.0/keynav-game-0.1.0-linux-x86_64 -o /usr/local/bin/keynav-game && chmod +x /usr/local/bin/keynav-game
+```
+
+
 ## Development Roadmap
 
 - [-] **PHASE I**
@@ -40,32 +51,3 @@ Tests your mouse emulator skills and solution!
 - [ ] PHAVE IV
     - [ ] Dual monitor capability
     - [ ] deploy
-
-## DEV NOTES
-
-### Suggested project directory
-
-keynav-the-game/
-├── .github/                # GitHub-specific configs (e.g., workflows, issue templates)
-│   └── workflows/
-│       └── python.yml      # (optional) CI/CD via GitHub Actions
-├── src/                    # Python source code
-│   └── keynav_game/        # Your actual package or module
-│       ├── __init__.py
-│       ├── main.py         # Entry point
-│       └── gui.py          # GUI logic
-├── dist/                   # Built/packaged binaries (gitignored)
-│   ├── windows/            # Windows executable(s)
-│   └── linux/              # Linux binary or AppImage
-├── assets/                 # Icons, images, sound effects, etc.
-├── tests/                  # Unit or integration tests
-│   └── test_main.py
-├── .gitignore              # Exclude dist/, __pycache__, etc.
-├── README.md               # Project description & usage
-├── LICENSE                 # An OSI-approved license (e.g., MIT)
-├── pyproject.toml          # Modern packaging metadata (PEP 621 / poetry / hatch etc.)
-├── requirements.txt        # (optional) direct dependencies list
-├── setup.py                # (optional legacy) for pip install
-├── build.py                # (optional) script to automate builds for Linux/Windows
-└── Makefile                # (optional) CLI tasks (build, test, clean, etc.)
-

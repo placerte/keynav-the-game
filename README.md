@@ -15,7 +15,7 @@ Tests your mouse emulator skills and solution!
     - [x] ~Random button position~
     - [x] ~basic label click count~
     - [ ] compile for windows
-    - [-] **compile for linux**
+    - [x] ~compile for linux~
     - [ ] distribute on github
    - [ ] write propper documentation
 - [ ] PHASE II

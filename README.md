@@ -3,7 +3,7 @@
 
 **Tests your mouse emulator skills and solution!**
 
-This is mainly a personal *"hello world"* project for me. Written in python, it was mainly made to familiarize myself with the [kivy](kivy.org) GUI framework.
+This is mainly a personal *"hello world"* project for me. Written in python, it was mainly made to familiarize myself with the [kivy](www.kivy.org) GUI framework.
 
 Nonetheless this game is intended to practice your keyboard navigation skills. It was based with the [jordansissel/keynav](https://github.com/jordansissel/keynav) tool in mind.
 

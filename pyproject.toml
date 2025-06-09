@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "keynav-the-game"
-version = "0.1.0"
+version = "0.1.2"
 description = "A keyboard-driven game using Kivy to practice mouse emulation"
 authors = [
     { name="placerte", email="122181242+placerte@users.noreply.github.com" }

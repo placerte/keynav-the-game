@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['src/keynav_game/main.py'],
+    ['src\\keynav_game\\main.py'],
     pathex=[],
     binaries=[],
     datas=[],

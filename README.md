@@ -10,7 +10,8 @@ Tests your mouse emulator skills and solution!
 Simply paste this command in your terminal:
 
 ```bash
-curl -L https://github.com/placerte/keynav-the-game/releases/download/v0.1.0/keynav-game-0.1.0-linux-x86_64 -o /usr/local/bin/keynav-game && chmod +x /usr/local/bin/keynav-game
+sudo curl -L <correct_url> -o /usr/local/bin/keynav-game
+sudo chmod +x /usr/local/bin/keynav-game
 ```
 
 

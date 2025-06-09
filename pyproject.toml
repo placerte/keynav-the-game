@@ -7,7 +7,7 @@ name = "keynav-the-game"
 version = "0.1.0"
 description = "A keyboard-driven game using Kivy to practice mouse emulation"
 authors = [
-    { name="Pierre Lacerte", email="122181242+placerte@users.noreply.github.com" }
+    { name="placerte", email="122181242+placerte@users.noreply.github.com" }
 ]
 dependencies = [
     "kivy>=2.2.0",

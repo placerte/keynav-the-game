@@ -1,7 +1,13 @@
 # KEYNAV THE GAME
 ## Description
 
-Tests your mouse emulator skills and solution!
+**Tests your mouse emulator skills and solution!**
+
+This is mainly a personal *"hello world"* project for me. Written in python, it was mainly made to familiarize myself with the [kivy](kivy.org) GUI framework.
+
+Nonetheless this game is intended to practice your keyboard navigation skills. It was based with the [jordansissel/keynav](https://github.com/jordansissel/keynav) tool in mind.
+
+For now it is mostly only a proof of concept, but I might work on it a little more in the future.
 
 ## Installation
 
@@ -28,18 +34,18 @@ sudo chmod +x /usr/local/bin/keynav-game
     - [x] ~basic label click count~
     - [ ] compile for windows
     - [x] ~compile for linux~
-    - [-] **distribute on github**
-   - [ ] write propper documentation
+    - [x] ~distribute on github~
+   - [x] ~write proper documentation~
 - [ ] PHASE II
     - [ ] Custom game settings
         - [ ] button size
         - [ ] Possible button positions by "n" key presses for a 2x2 grid
-    - [ ] full screen keybing
+    - [x] ~full screen keybing~
     - [ ] better score label
-        - [ ] Click per seconds
+        - [x] ~Click per seconds~
         - [ ] key presses total
-        - [ ] clicks
-        - [ ] mean values
+        - [x] ~clicks~
+        - [x] ~mean values~
     - [ ] deploy
 - [ ] PHASE III
     - [ ] Gamify with basic levels
@@ -49,6 +55,6 @@ sudo chmod +x /usr/local/bin/keynav-game
         - [ ] Level 3 - 1 or 2 key presses away - main axes only
         - [ ] Level 4 - 2 key presses away - anywhere
         - [ ] Level 5 - 1 or 2 ley presses away - anywhere
-- [ ] PHAVE IV
+- [ ] PHASE IV
     - [ ] Dual monitor capability
     - [ ] deploy

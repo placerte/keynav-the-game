@@ -16,7 +16,7 @@ For now it is mostly only a proof of concept, but I might work on it a little mo
 Simply paste this command in your terminal:
 
 ```bash
-sudo curl -L https://github.com/placerte/keynav-the-game/releases/download/v0.1.0/keynav-game-0.1.0-linux-x86_64 -o /usr/local/bin/keynav-game
+sudo curl -L https://github.com/placerte/keynav-the-game/releases/download/v0.1.0/keynav-game-0.1.1-linux-x86_64 -o /usr/local/bin/keynav-game
 sudo chmod +x /usr/local/bin/keynav-game
 ```
 

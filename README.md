@@ -22,7 +22,7 @@ sudo chmod +x /usr/local/bin/keynav-game
 
 ### Windows
 
-Simply download and execute the .exe on the [release page](https://github.com/placerte/keynav-the-game/releases/download/v0.1.2).
+Simply download and execute the .exe on the [release page](https://github.com/placerte/keynav-the-game/releases/tag/v0.1.2).
 
 
 ## Development Roadmap

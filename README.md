@@ -43,7 +43,7 @@ Simply download and execute the .exe on the [release page](https://github.com/pl
 - [ ] PHASE II
     - [ ] Custom game settings
         - [ ] button size
-        - [-] **Possible button positions by "n" key presses for a 2x2 grid**
+        - [x] ~Possible button positions by "n" key presses for a 2x2 grid~
     - [x] ~full screen keybing~
     - [ ] better score label
         - [x] ~Click per seconds~

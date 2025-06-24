@@ -36,14 +36,14 @@ Simply download and execute the .exe on the [release page](https://github.com/pl
     - [x] ~Put game logic into game_logic.py~
     - [x] ~Random button position~
     - [x] ~basic label click count~
-    - [ ] compile for windows
+    - [x] ~compile for windows~
     - [x] ~compile for linux~
     - [x] ~distribute on github~
    - [x] ~write proper documentation~
 - [ ] PHASE II
     - [ ] Custom game settings
         - [ ] button size
-        - [ ] Possible button positions by "n" key presses for a 2x2 grid
+        - [-] **Possible button positions by "n" key presses for a 2x2 grid**
     - [x] ~full screen keybing~
     - [ ] better score label
         - [x] ~Click per seconds~
